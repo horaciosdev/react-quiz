@@ -1,19 +1,10 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 export default function Layout() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Quizes</Link>
-          </li>
-          <li>
-            <Link to="/Quiz">Quiz</Link>
-          </li>
-        </ul>
-      </nav>
-
+      <Navbar />
       <Outlet />
     </>
   );

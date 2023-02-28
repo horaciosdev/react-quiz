@@ -9,7 +9,7 @@ export default function Card({ quiz }: any) {
   };
   return (
     <div className="card" onClick={() => navigateToQuiz()}>
-      <img src={quiz.img} alt="" />
+      <img src={quiz.img} alt={`${quiz.name} quiz`} />
       <div className="card-text">
         <h2>{quiz.name}</h2>
         <p>{quiz.questions.length} questions</p>

@@ -11,7 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Quizes />} />
-          <Route path="/Quiz" element={<Quiz />} />
+          <Route path="quizez" element={<Quizes />} />
+          <Route path="quiz/:id" element={<Quiz />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

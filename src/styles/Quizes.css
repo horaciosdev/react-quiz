@@ -19,6 +19,10 @@
   margin-right: 30px;
   font-size: 2em;
 }
+.quizes-container header h1 svg {
+  color: #00acee;
+}
+
 .quizes-container header input {
   border: none;
   color: #ccc;

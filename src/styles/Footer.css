@@ -1,0 +1,25 @@
+.footer {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.social-icons {
+  display: inline-block;
+  font-size: 2em;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00acee;
+}
+
+.footer p {
+  font-size: 1.2em;
+}

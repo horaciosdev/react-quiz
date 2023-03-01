@@ -12,7 +12,7 @@ export default function Card({ quiz }: any) {
       <img src={quiz.img} alt={`${quiz.name} quiz`} />
       <div className="card-text">
         <h2>{quiz.name}</h2>
-        <p>{quiz.questions.length} questions</p>
+        <p>{quiz.questions.length} questões</p>
       </div>
     </div>
   );

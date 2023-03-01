@@ -1,4 +1,5 @@
-import { InputHTMLAttributes, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { MdQuiz } from "react-icons/md";
 import Card from "../components/Card";
 import quizesdata from "../data/quizes.json";
 import "../styles/Quizes.css";
@@ -22,7 +23,9 @@ export default function Quizes() {
   return (
     <div className="quizes-container">
       <header>
-        <h1>DevQuizes</h1>
+        <h1>
+          <MdQuiz /> DevQuizes
+        </h1>
         <input
           type="text"
           placeholder="Search..."

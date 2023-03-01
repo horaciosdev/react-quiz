@@ -6,11 +6,11 @@ export default function Result(props: any) {
   const { quizQuestionLength, numberOfCorrectAnswers } = props;
   return (
     <div className="results">
-      <p>Your Results</p>
+      <p>Resultado</p>
       <h1>
         {numberOfCorrectAnswers}/{quizQuestionLength}
       </h1>
-      <Link to="/">Go Back</Link>
+      <Link to="/">Voltar</Link>
     </div>
   );
 }

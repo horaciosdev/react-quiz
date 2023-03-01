@@ -1,9 +1,12 @@
 import "../styles/QuizHeader.css";
+import { MdQuiz } from "react-icons/md";
 
 export default function QuizHeader({ questionStatus, barPercentage }: any) {
   return (
-    <header>
-      <h4>Question {questionStatus}</h4>
+    <header className="quiz-header">
+      <h4>
+        <MdQuiz /> Question {questionStatus}
+      </h4>
       <div className="bar">
         <div
           className="completion"

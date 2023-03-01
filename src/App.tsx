@@ -7,16 +7,18 @@ import Quizes from "./pages/Quizes";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Quizes />} />
-          <Route path="quizez" element={<Quizes />} />
-          <Route path="quiz/:id" element={<Quiz />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Quizes />} />
+            <Route path="quizez" element={<Quizes />} />
+            <Route path="quiz/:id" element={<Quiz />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

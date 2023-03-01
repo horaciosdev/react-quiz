@@ -7,11 +7,11 @@ export default function Question(props: any) {
       <div className="question-container">
         <h1 className="question">{question.text}</h1>
       </div>
-      <div className="options-container">
+      <div>
         {question.options.map((option: any) => (
           <div
             key={option.id}
-            className={option}
+            className="option"
             onClick={() => selectOption(option.isCorrect)}
           >
             <p className="option-label">{option.label}</p>

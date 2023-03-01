@@ -1,21 +1,23 @@
-header {
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.quizes-container header {
   margin-bottom: 10px;
   margin-top: 30px;
   display: flex;
   align-items: center;
 }
-header h1 {
+.quizes-container header h1 {
   font-weight: bold;
   margin-right: 30px;
+  font-size: 2em;
 }
-header input {
+.quizes-container header input {
   border: none;
+  color: #ccc;
   background-color: rgba(128, 128, 128, 0.1);
   padding: 10px;
   border-radius: 5px;
-}
-.options-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
 }

@@ -1,95 +1,197 @@
 [
   {
     "id": 1,
-    "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
-    "name": "Math",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png",
+    "name": "React - nível básico",
     "questions": [
       {
         "id": 1,
-        "text": "8 ÷ 2(2 + 2)",
+        "text": "O que é JSX?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "16",
-            "isCorrect": true
+            "label": "a)",
+            "text": "Um modelo de ciclo de vida para componentes React",
+            "isCorrect": false
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "1",
+            "label": "b)",
+            "text": "Uma linguagem de programação",
             "isCorrect": false
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "8",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "24",
-            "isCorrect": false
+            "label": "c)",
+            "text": "Uma sintaxe de extensão do JavaScript para escrever elementos de interface do usuário em React",
+            "isCorrect": true
           }
         ]
       },
       {
         "id": 2,
-        "text": "sqrt(64) * 9",
+        "text": "O que é o Virtual DOM?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "4",
-            "isCorrect": false
+            "label": "a)",
+            "text": "Uma versão simulada do Document Object Model (DOM) que é usada para otimizar a renderização em React",
+            "isCorrect": true
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "81",
+            "label": "b)",
+            "text": "Uma técnica de otimização de consultas em bancos de dados relacionais",
             "isCorrect": false
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "72",
-            "isCorrect": true
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "144",
+            "label": "c)",
+            "text": "Um tipo de elemento em React que pode ser usado para representar componentes fora da hierarquia do DOM",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 3,
-        "text": "3 + 3 x 3 ÷ 3 - 3",
+        "text": "O que são Props?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "3",
+            "label": "a)",
+            "text": "A propriedade que define a cor de fundo de um componente React",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "As informações que são passadas para um componente React pelo componente pai",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "As funções que são usadas para manipular o estado de um componente React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "O que é o Estado (State)?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "O status atual de um componente React",
             "isCorrect": true
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "1",
+            "label": "b)",
+            "text": "A propriedade que define a posição de um componente na tela",
             "isCorrect": false
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "9",
+            "label": "c)",
+            "text": "A função que é usada para atualizar a interface do usuário quando ocorrem mudanças em um componente React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "O que são Componentes em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Elementos de interface do usuário que podem ser renderizados na tela",
             "isCorrect": false
           },
           {
-            "id": 4,
-            "label": "D",
-            "text": "16",
+            "id": 2,
+            "label": "b)",
+            "text": "Funções que recebem dados de entrada e produzem um resultado",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Unidades independentes de código que encapsulam a lógica e a aparência de uma parte da interface do usuário",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "O que é o Ciclo de Vida (Lifecycle) de um componente React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "O tempo que um componente leva para ser renderizado na tela",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "As etapas pelas quais um componente passa, desde a sua inicialização até a sua remoção da árvore de componentes",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "A série de eventos que são acionados quando um usuário interage com um componente",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "O que são Hooks em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Funções que permitem a você 'ligar-se' a recursos React, como o estado e o ciclo de vida, em componentes funcionais",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Os arquivos que armazenam os componentes React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Os elementos de interface do usuário que permitem a interação com o usuário",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "O que é o React Router?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma biblioteca de roteamento para aplicativos web que usam React",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Um tipo de componente que renderiza outros componentes React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma ferramenta para depuração de código em React",
             "isCorrect": false
           }
         ]
@@ -98,95 +200,245 @@
   },
   {
     "id": 2,
-    "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
-    "name": "Biology",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png",
+    "name": "React - nível intermediário",
     "questions": [
       {
         "id": 1,
-        "text": "The Kreb Cycles occurs in the",
+        "text": "O que é a Context API do React?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "Mitochondria",
-            "isCorrect": true
+            "label": "a)",
+            "text": "Uma API que permite a comunicação entre componentes irmãos",
+            "isCorrect": false
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "Nucleus",
+            "label": "b)",
+            "text": "Uma API para trabalhar com dados assíncronos em React",
             "isCorrect": false
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "Rough ER",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "Cystol",
-            "isCorrect": false
+            "label": "c)",
+            "text": "Uma API que permite compartilhar dados entre componentes sem a necessidade de passá-los através de props",
+            "isCorrect": true
           }
         ]
       },
       {
         "id": 2,
-        "text": "How many oxygen molecules can hemoglobin hold",
+        "text": "O que é um HOC (Higher Order Component)?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "1",
+            "label": "a)",
+            "text": "Um componente que se encontra no topo da hierarquia de componentes em uma aplicação React",
             "isCorrect": false
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "2",
+            "label": "b)",
+            "text": "Um componente que é renderizado condicionalmente, dependendo do estado de um componente pai",
             "isCorrect": false
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "3",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "4",
+            "label": "c)",
+            "text": "Um componente que é usado para envolver outros componentes, a fim de adicionar funcionalidade e comportamento a eles",
             "isCorrect": true
           }
         ]
       },
       {
         "id": 3,
-        "text": "The cones see ___ while the rods see ___",
+        "text": "O que é Render Props em React?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "black and white; color",
+            "label": "a)",
+            "text": "Uma técnica para compartilhar lógica entre componentes em React",
             "isCorrect": false
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "color; black and white",
+            "label": "b)",
+            "text": "Uma API para renderizar elementos de interface do usuário em React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma técnica para passar uma função como uma prop para um componente, a fim de compartilhar lógica com ele",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "O que é um PureComponent em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Um tipo de componente que renderiza outros componentes em React",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Um componente que tem um ciclo de vida mais curto do que um componente normal em React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Um tipo de componente que implementa a verificação de igualdade superficial (shallow equality checking) em suas props e state para melhorar o desempenho",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "O que é o Redux em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma biblioteca que permite gerenciar o estado de um aplicativo de forma previsível e centralizada",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Um método para renderizar componentes de forma assíncrona em React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Um tipo de componente que é usado para lidar com eventos de entrada do usuário em React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "O que é Imutabilidade em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "A habilidade de um componente React de renderizar somente uma vez",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "A habilidade de um componente React de manter seu estado atualizado de forma automática",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "A habilidade de um objeto de não ser modificado após a sua criação",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "O que é o React Native?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma biblioteca de JavaScript para criar aplicativos móveis nativos em iOS e Android usando o React",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Um tipo de componente que é usado para criar interfaces de usuário personalizadas em React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma biblioteca para renderizar componentes em um servidor em Node.js",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "O que é Server-Side Rendering em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma técnica para otimizar a renderização de componentes em um servidor em Node.js",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Uma técnica para renderizar componentes em um servidor antes de enviá-los para o navegador do usuário",
             "isCorrect": true
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "3D objects; 2D shapes",
+            "label": "c)",
+            "text": "Uma técnica para criar APIs em Node.js que podem ser consumidas por um aplicativo React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "O que é o Next.js em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma biblioteca para renderizar componentes em um servidor em Node.js",
             "isCorrect": false
           },
           {
-            "id": 4,
-            "label": "D",
-            "text": "2D shapes; 3D objects",
+            "id": 2,
+            "label": "b)",
+            "text": "Um framework para criar aplicativos web universais em React",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Um pacote de bibliotecas para gerenciar o estado de um aplicativo em React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "O que é o Redux Saga em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma biblioteca para gerenciar efeitos colaterais em aplicações Redux",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Um framework para criar aplicações complexas em React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma técnica para renderizar componentes assíncronos em React",
             "isCorrect": false
           }
         ]
@@ -195,95 +447,245 @@
   },
   {
     "id": 3,
-    "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-    "name": "Chemistry",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png",
+    "name": "React - nível avançado",
     "questions": [
       {
         "id": 1,
-        "text": "What is the composition of table salt",
+        "text": "O que são Hooks em React?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "NaCl",
+            "label": "a)",
+            "text": "Funções que permitem utilizar o estado e outras características do React sem escrever classes",
             "isCorrect": true
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "K2",
+            "label": "b)",
+            "text": "Classes de componentes especiais que podem ser utilizadas para otimizar a performance de aplicações React",
             "isCorrect": false
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "NaCl2C4H7",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "CH4",
+            "label": "c)",
+            "text": "Bibliotecas adicionais para estender as funcionalidades do React",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 2,
-        "text": "What is Potassium's chemical symbol",
+        "text": "O que é Suspense em React?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "P",
-            "isCorrect": false
+            "label": "a)",
+            "text": "Uma técnica para renderizar componentes de forma assíncrona em React",
+            "isCorrect": true
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "Pt",
+            "label": "b)",
+            "text": "Um padrão de design para dividir grandes aplicações React em partes menores",
             "isCorrect": false
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "Pts",
+            "label": "c)",
+            "text": "Um componente React especial para exibir informações de carregamento",
             "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "K",
-            "isCorrect": true
           }
         ]
       },
       {
         "id": 3,
-        "text": "Which is not organinc",
+        "text": "O que é Lazy Loading em React?",
         "options": [
           {
             "id": 1,
-            "label": "A",
-            "text": "CH4",
+            "label": "a)",
+            "text": "Uma técnica para otimizar o carregamento de aplicações React",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Um componente React para exibir imagens de forma preguiçosa",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma biblioteca adicional para estender as funcionalidades do React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "O que são Error Boundaries em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Componentes especiais para exibir mensagens de erro em aplicações React",
             "isCorrect": false
           },
           {
             "id": 2,
-            "label": "B",
-            "text": "NaCl",
+            "label": "b)",
+            "text": "Técnicas para lidar com erros de rede em aplicações React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Componentes que permitem capturar e tratar erros em outros componentes React",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "O que são Portals em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Componentes React para navegar entre diferentes partes de uma aplicação",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Componentes React para renderizar conteúdo em um lugar diferente do DOM",
             "isCorrect": true
           },
           {
             "id": 3,
-            "label": "C",
-            "text": "C2H6",
+            "label": "c)",
+            "text": "Técnicas para compartilhar dados entre diferentes componentes em uma aplicação React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "O que é Memoization em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma técnica para otimizar o desempenho de funções em aplicações React",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Uma biblioteca adicional para estender as funcionalidades do React",
             "isCorrect": false
           },
           {
-            "id": 4,
-            "label": "D",
-            "text": "C3H8",
+            "id": 3,
+            "label": "c)",
+            "text": "Uma técnica para dividir grandes aplicações React em partes menores",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "O que é React Fiber?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Um algoritmo de reconciliação que permite atualizar a interface do usuário de forma mais eficiente em aplicações React",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Um componente React para renderizar listas grandes de dados",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma técnica para otimizar o carregamento de aplicações React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "O que são React Server Components?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Componentes React que são renderizados em um servidor em Node.js",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Componentes React para renderização no lado do cliente",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Bibliotecas adicionais para estender as funcionalidades do React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "O que é Concurrent Mode em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Um modo de operação que permite a execução simultânea de várias tarefas em aplicações React",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Uma técnica para renderizar componentes de forma assíncrona em React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma biblioteca adicional para estender as funcionalidades do React",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "O que é SSR com Streaming em React?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a)",
+            "text": "Uma técnica para renderizar conteúdo no servidor e enviá-lo ao navegador em pedaços",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "b)",
+            "text": "Uma técnica para otimizar o carregamento de aplicações React",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "c)",
+            "text": "Uma biblioteca adicional para estender as funcionalidades do React",
             "isCorrect": false
           }
         ]

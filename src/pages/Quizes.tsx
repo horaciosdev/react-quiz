@@ -22,7 +22,7 @@ export default function Quizes() {
   return (
     <div className="quizes-container">
       <header>
-        <h1>Quizes</h1>
+        <h1>DevQuizes</h1>
         <input
           type="text"
           placeholder="Search..."
